@@ -1,12 +1,12 @@
-Community Blood Bank Management System
+### Community Blood Bank Management System
 
 This is a comprehensive web application for managing blood bank operations, built using Streamlit and backed by a MySQL database.
 
-1. Overview
+# 1. Overview
 
 The Community Blood Bank Management System provides a centralized platform for hospital staff to manage donors, recipients, donations, and blood requests. It features a secure login system and an analytics dashboard to visualize key metrics.
 
-2. Features
+# 2. Features
 
 Secure User Authentication: Register new hospital users and log in with hashed password verification.
 
@@ -24,7 +24,7 @@ Hospital Management: View all registered hospitals.
 
 Analytics Page: Advanced analytics on blood stock levels (donated vs. fulfilled), hospital activity, and age distributions.
 
-3. Technical Stack
+# 3. Technical Stack
 
 Frontend: Streamlit
 
@@ -44,7 +44,7 @@ plotly - For data visualization and charts.
 
 passlib - For password hashing and verification.
 
-4. Setup and Installation
+# 4. Setup and Installation
 
 To run this application locally, follow these steps:
 
@@ -58,7 +58,7 @@ Define Schema: Execute the required SQL scripts to create the tables (Donor, Rec
 
 Update Connection: Open app.py and update the get_connection function with your MySQL host, database, user, and password.
 
-# Inside app.py
+## Inside app.py
 def get_connection():
     try:
         connection = mysql.connector.connect(
@@ -72,9 +72,9 @@ def get_connection():
 # ...
 
 
-B. Application Setup
+## B. Application Setup
 
-Clone the Repository:
+#Clone the Repository:
 
 git clone <repository-url>
 cd <repository-directory>
